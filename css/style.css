@@ -1009,22 +1009,24 @@ footer .footer-box-border:before {
 .main-btn{
   position: relative;
  color: black;
-  background: linear-gradient(to right ,#eab230 ,#b39858);
+  background: linear-gradient(to right ,#eab230 ,#eacd8b);
   z-index: 1;
   overflow: hidden;
-  border:  0.2rem solid var(--bg-white) ;
-  border-radius: 3.5rem;
+
+ 
   text-transform: uppercase;
-  padding: .7rem 1rem;
+  padding: .7rem 2.8rem;
   font-weight: 600;
   font-size: .8rem;
   margin-top:.5rem ;
   letter-spacing: 0.2rem ;
+  border: 0.2rem solid black;
 }
 .main-btn:hover{
   background: #eab230;
   color: black;
-  border: 0.2rem solid black;
+  background: linear-gradient(to right ,#eacd8b,#eab230);
+ 
 }
 .main-slider {
   padding: 0;
@@ -1268,6 +1270,7 @@ a.back_to_top {
     padding-top: 40px;
     background: url("../img/features-bg.png") no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
   }
 }
 @media (min-width: 1200px) {
@@ -2739,3 +2742,41 @@ a.back_to_top {
  */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* testimonial */
+.tesimonial_section{
+  background: #daf0e7;
+}
+
+.ptoduct_content{
+
+  text-align: end;
+}
+.testimonial_paragraph {
+  margin-top: 17px;
+}
+.ptoduct_content h2{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+img{
+  object-fit: cover;
+}
+
+
+/* carrosel img */
+.testimonial-box_img {
+  height: 350px;
+}
+.carodsel_media{
+  border: 5px solid rgb(39, 37, 37);
+  height: 250px;
+  width: 350px;
+  
+
+}
+
+
+
